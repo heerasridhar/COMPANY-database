@@ -15,7 +15,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author dell
+ * @author 
  */
 public class project {
     public static void main(String[] args) throws IOException, SQLException{
@@ -28,8 +28,8 @@ public class project {
 	         System.out.println("Could not load the driver.");
 	      }
 		 
-		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:1521:xe", "system", "system");
-                 BufferedReader br4 = new BufferedReader(new FileReader("C:\\Users\\dell\\Downloads\\datafiles\\PROJECT.txt"));
+		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:", "system", "system");
+                 BufferedReader br4 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\PROJECT.txt"));
 
                   String text4,Pname,Plocation,Pnum_temp;
                     int Pnumber,Dnumb;
