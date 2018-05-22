@@ -26,7 +26,7 @@ public class Jdbc_dept_loc {
 	      }
 		 
 		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:", "system", "system");
-                 //conn = DriverManager.getConnection("jdbc:oracle:thin:vro8522/Apple123@omega:1521:cse1");
+                 
                  
                  BufferedReader br3 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\DEPT_LOCATIONS.txt"));
                  /* code for loading data to the dept_locations table*/      
