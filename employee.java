@@ -10,15 +10,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author dell
+ * @author 
  */
 public class employee {
     public static void main(String[] args) throws IOException, SQLException{
@@ -31,8 +25,8 @@ public class employee {
 	         System.out.println("Could not load the driver.");
 	      }
 		 
-		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:1521:xe", "system", "system");
-                 BufferedReader br1 = new BufferedReader(new FileReader("C:\\Users\\dell\\Downloads\\datafiles\\EMPLOYEE.txt"));
+		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:", "system", "system");
+                 BufferedReader br1 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\EMPLOYEE.txt"));
 
                   String text,temp;
 		 String Fname, Minit, Lname, addr, sex, Bdate,ssn_temp,super_ssn_temp,salary_temp,dno_temp;
