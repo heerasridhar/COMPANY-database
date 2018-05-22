@@ -1,4 +1,4 @@
-# COMPANY-database
+# Company-database
 Used the interactive SQLPLUS facility, and the SQL programming facility, by creating tables, populating them with data, and querying and updating the tables. 
 
 The following tasks were performed:
