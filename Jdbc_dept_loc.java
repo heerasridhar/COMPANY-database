@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package klab1;
 
 import java.io.BufferedReader;
@@ -15,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author dell
+ * @author 
  */
 public class Jdbc_dept_loc {
     
@@ -29,10 +25,10 @@ public class Jdbc_dept_loc {
 	         System.out.println("Could not load the driver.");
 	      }
 		 
-		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:1521:xe", "system", "system");
+		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:", "system", "system");
                  //conn = DriverManager.getConnection("jdbc:oracle:thin:vro8522/Apple123@omega:1521:cse1");
                  
-                 BufferedReader br3 = new BufferedReader(new FileReader("C:\\Users\\dell\\Downloads\\datafiles\\DEPT_LOCATIONS.txt"));
+                 BufferedReader br3 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\DEPT_LOCATIONS.txt"));
                  /* code for loading data to the dept_locations table*/      
 		    String text3,Dlocation;
                     int Dnum;
