@@ -10,15 +10,10 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  *
- * @author dell
+ * @author 
  */
 public class Jdbc_department {
     public static void main(String[] args) throws IOException, SQLException{
@@ -31,10 +26,10 @@ public class Jdbc_department {
 	         System.out.println("Could not load the driver.");
 	      }
 		 
-		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:1521:xe", "system", "system");
-                 //conn = DriverManager.getConnection("jdbc:oracle:thin:vro8522/Apple123@omega:1521:cse1");
+		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:", "system", "system");
+                
                  
-                 BufferedReader br2 = new BufferedReader(new FileReader("C:\\Users\\dell\\Downloads\\datafiles\\DEPARTMENT.txt"));
+                 BufferedReader br2 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\DEPARTMENT.txt"));
     
      /* code for loading data to the department table*/
                    String text2,Dname,Mgr_strt_date,Mgr_ssn_temp;
