@@ -15,7 +15,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author dell
+ * @author 
  */
 public class works_on {
     
@@ -29,8 +29,8 @@ public class works_on {
 	         System.out.println("Could not load the driver.");
 	      }
 		 
-		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost:1521:xe", "system", "system");
-                 BufferedReader br5 = new BufferedReader(new FileReader("C:\\Users\\dell\\Downloads\\datafiles\\WORKS_ON.txt"));
+		 conn = DriverManager.getConnection("jdbc:oracle:oci:@localhost: ", "system", "system");
+                 BufferedReader br5 = new BufferedReader(new FileReader("C:\\Users\\Downloads\\datafiles\\WORKS_ON.txt"));
 
                  /* code for loading data to the works_on table*/     
                    String text5,Essn_temp;
